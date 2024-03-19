@@ -13,16 +13,13 @@
     text-size-adjust: none;
    
   }
-  h1, h2 , h3 , h4, h5 ,h6 {
+  h1, h2 , h3 , h4, h5 , h6, a {
     -moz-font-feature-settings: 'case'; 
     -webkit-font-feature-settings: 'case'; 
     font-feature-settings: 'case' on;
     }
   
-  footer, header, nav, section, main{
-    display: flex;
-  }
-  
+
   body{
     font-family: 'Noto Sans Georgian';
     background: #FFF;
@@ -32,6 +29,8 @@
   
   ol, ul{
     list-style: none;
+    text-decoration: unset;
+    
   }
   
   blockquote, q{
