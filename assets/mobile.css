@@ -1,0 +1,42 @@
+.mobile-nav{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    z-index: 300;
+}
+
+.closed-menu{
+    left: -100% !important;
+}
+
+.mobile-link{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    gap: 4rem;
+    list-style: none;
+}
+
+.mobile-link li, .mobile-link a {
+    color: #2d2e32;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.23s;
+    cursor: pointer;
+  
+  }
+
+  .mobile-link a:hover, a:focus{
+    transition: all 0.23s;
+    color: #B23A48;
+  }
+  
